@@ -182,69 +182,54 @@ The project also includes a separate local API testing setup in `api-tests/`.
 
 ## 5. Unit Testing
 
+**Original web programming project:**
+https://github.com/alihandanibu/web-programming
 
+**Unit test directory:**
+https://github.com/alihandanibu/web-programming/tree/main/sqa-unit-tests
 
-**Technologies:** PHP 8, PHPUnit 9.6, Xdebug 3
+The tests exercise the original `backend/services/UserService.php`.
+Database and authentication dependencies are replaced by test doubles.
 
-
-
-Unit tests cover an adapted, dependency-injected PHP `UserService` originally developed for a separate FlightPHP web programming project.
-
-
-
-This unit test suite does not directly test nopCommerce source code.
-
-
-
-### Confirmed Results
-
-
+### Verified Results - November 3, 2026
 
 | Metric | Result |
-
 |---|---|
-
-| Unit tests | 13 PASSED |
-
-| Assertions | 42 |
-
-| Line coverage | 92.86% (52/56) |
-
-| Method coverage | 57.14% (4/7) |
-
-
+| Framework | PHPUnit 9.6.38 |
+| Tests | 25 PASSED |
+| Assertions | 61 |
+| Line coverage | 82.28% (130/158) |
+| Method coverage | 42.86% (3/7) |
+| Coverage driver | Xdebug 3.5.3 |
 
 ### Run Unit Tests
 
+Clone the original project and install dependencies:
 
+~~~powershell
+git clone https://github.com/alihandanibu/web-programming.git
+cd web-programming/sqa-unit-tests
+composer install
+php vendor/phpunit/phpunit/phpunit tests/UserServiceTest.php
+~~~
 
-Navigate to the unit testing folder:
+### Code Coverage
 
+Run with a compatible Xdebug extension enabled.
 
+~~~powershell
+php -d "zend_extension=C:\xampp\php\ext\php_xdebug-3.5.3-8.0-ts-vs16-x86_64.dll" -d "xdebug.mode=coverage" vendor/phpunit/phpunit/phpunit tests/UserServiceTest.php --coverage-filter ../backend/services/UserService.php --coverage-text
+~~~
 
-`cd unit-tests`
+Coverage shows which executable lines were reached by the tests.
+It does not prove that the entire application is correct.
 
+Full report:
+https://github.com/alihandanibu/web-programming/blob/main/sqa-unit-tests/COVERAGE.md
 
-
-Install dependencies:
-
-
-
-`composer install`
-
-
-
-Execute tests:
-
-
-
-`vendor/bin/phpunit tests/UserServiceTest.php`
-
-
-
-Coverage measurement requires Xdebug.
-
-
+The older `unit-tests/` folder in this SQA repository contains
+historical tests of an adapted service. The graded Part 4b tests
+are maintained in the original web-programming repository.
 
 ## 6. Project Structure
 
@@ -373,7 +358,7 @@ If the examiner is not logged into the same GitHub account, they must **adapt th
 - [ ] Instructor and assistant have confirmed read access to repository.
 - [ ] Date and evidence for manual test executions are verified and documented.
 - [ ] Exploration log is completed; only genuine defects are filed in `/bugs/`.
-- [ ] Original `web-programming` repository has its own passing unit suite, coverage output and link.
+- [x] Original `web-programming` repository has its own passing unit suite, coverage output and link.
 - [ ] New `e2e/` tests pass after this restructuring in both browsers.
 - [ ] Another person can reproduce the local SUT environment and both API credentials/test repository setup.
 - [ ] The repository URL is submitted via LMS and the submission receipt is visible.
