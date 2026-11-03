@@ -1,0 +1,10 @@
+{
+  "id": "EX-04",
+  "browser": "chromium",
+  "timestamp": "2026-11-03T18:26:43.367Z",
+  "input": "quantity=2, new isolated browser session",
+  "expected": "The product has been added to your shopping cart; cart count (2)",
+  "observed": "notification=The product has been added to your shopping cart; cart=(2)",
+  "verdict": "PASS",
+  "screenshot": "bugs/evidence/20261103-192630/EX-04-chromium.png"
+}

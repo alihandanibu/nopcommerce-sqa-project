@@ -1,0 +1,10 @@
+{
+  "id": "EX-01",
+  "browser": "chromium",
+  "timestamp": "2026-11-03T18:26:34.770Z",
+  "input": "quantity=-1, new isolated browser session",
+  "expected": "Quantity should be positive; cart count (0)",
+  "observed": "notification=Quantity should be positive; cart=(0)",
+  "verdict": "PASS",
+  "screenshot": "bugs/evidence/20261103-192630/EX-01-chromium.png"
+}

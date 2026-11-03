@@ -1,0 +1,10 @@
+{
+  "id": "EX-09",
+  "browser": "chromium",
+  "timestamp": "2026-11-03T18:26:52.197Z",
+  "input": "three spaces",
+  "expected": "Observe actual validation or search result; no pre-assigned defect",
+  "observed": "dialog=(none); URL=http://localhost:8081/search?q=+++; page excerpts=\n    \n        Search\n    \n    \n        \n            \n                \n                    \n                        \n                            \n                                Search keyword:\n                                \n                            \n                            \n                            \n                                \n    ",
+  "verdict": "OBSERVED",
+  "screenshot": "bugs/evidence/20261103-192630/EX-09-chromium.png"
+}

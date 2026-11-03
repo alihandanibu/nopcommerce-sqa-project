@@ -31,4 +31,4 @@ A validation message for an intentionally invalid input is **correct behavior**,
 Use the template in `BUG-TEMPLATE.md` for every confirmed problem; name files `BUG-001.md`, `BUG-002.md`, etc., once supported by evidence. Record fewer than five if that is what genuine exploratory testing finds.
 ## Automated exploratory run 20261103-192630
 
-See [actual observations and screenshots](exploration-20261103-192630.md). This run is separate from historical undated manual case execution. 
+See [actual observations and screenshots](exploration-20261103-192630.md). This run is separate from historical undated manual case execution.

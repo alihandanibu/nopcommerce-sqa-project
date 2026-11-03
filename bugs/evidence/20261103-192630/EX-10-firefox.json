@@ -1,0 +1,10 @@
+{
+  "id": "EX-10",
+  "browser": "firefox",
+  "timestamp": "2026-11-03T18:27:28.016Z",
+  "input": "add 2 MacBook units, then remove from cart",
+  "expected": "Cart goes from empty to (2), then back to empty",
+  "observed": "Empty-cart message shown, cart=(0)",
+  "verdict": "PASS",
+  "screenshot": "bugs/evidence/20261103-192630/EX-10-firefox.png"
+}

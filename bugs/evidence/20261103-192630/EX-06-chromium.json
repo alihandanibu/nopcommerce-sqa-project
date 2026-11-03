@@ -1,0 +1,10 @@
+{
+  "id": "EX-06",
+  "browser": "chromium",
+  "timestamp": "2026-11-03T18:26:47.516Z",
+  "input": "quantity=999999, new isolated browser session",
+  "expected": "The maximum quantity allowed for purchase is 10000.; cart count (0)",
+  "observed": "notification=The maximum quantity allowed for purchase is 10000.; cart=(0)",
+  "verdict": "PASS",
+  "screenshot": "bugs/evidence/20261103-192630/EX-06-chromium.png"
+}

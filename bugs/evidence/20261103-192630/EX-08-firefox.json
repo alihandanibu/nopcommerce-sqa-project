@@ -1,0 +1,10 @@
+{
+  "id": "EX-08",
+  "browser": "firefox",
+  "timestamp": "2026-11-03T18:27:22.386Z",
+  "input": "XYZNONEXISTENT98765",
+  "expected": "No products were found that matched your criteria.",
+  "observed": "No-results message displayed, URL=http://localhost:8081/search?q=XYZNONEXISTENT98765",
+  "verdict": "PASS",
+  "screenshot": "bugs/evidence/20261103-192630/EX-08-firefox.png"
+}

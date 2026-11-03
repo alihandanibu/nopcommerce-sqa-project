@@ -1,0 +1,10 @@
+{
+  "id": "EX-03",
+  "browser": "chromium",
+  "timestamp": "2026-11-03T18:26:41.408Z",
+  "input": "quantity=1, new isolated browser session",
+  "expected": "The minimum quantity allowed for purchase is 2.; cart count (0)",
+  "observed": "notification=The minimum quantity allowed for purchase is 2.; cart=(0)",
+  "verdict": "PASS",
+  "screenshot": "bugs/evidence/20261103-192630/EX-03-chromium.png"
+}

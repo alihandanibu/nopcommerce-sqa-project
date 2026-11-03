@@ -1,0 +1,10 @@
+{
+  "id": "EX-07",
+  "browser": "chromium",
+  "timestamp": "2026-11-03T18:26:49.684Z",
+  "input": "MacBook",
+  "expected": "Apple MacBook Pro appears in search results",
+  "observed": "Search result visible, URL=http://localhost:8081/search?q=MacBook",
+  "verdict": "PASS",
+  "screenshot": "bugs/evidence/20261103-192630/EX-07-chromium.png"
+}
