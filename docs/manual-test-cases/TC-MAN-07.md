@@ -25,3 +25,15 @@ The user remains on the homepage.
 
 **Execution Date:** Not recorded
 **Bug ID:** N/A (no defect recorded)
+
+## Step-level Expected Results
+
+| Step | Expected observable result |
+|---|---|
+| 1 | Homepage opens |
+| 2 | Search field remains empty |
+| 3 | Validation is triggered |
+| 4 | Warning dialog appears |
+| 5 | Homepage remains open |
+
+Note: these expected outcomes are documented acceptance criteria, not newly claimed execution evidence. Existing execution dates remain unverified.

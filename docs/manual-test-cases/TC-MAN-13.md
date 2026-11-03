@@ -25,3 +25,16 @@ No errors are displayed.
 
 **Execution Date:** Not recorded
 **Bug ID:** N/A (no defect recorded)
+
+## Step-level Expected Results
+
+| Step | Expected observable result |
+|---|---|
+| 1 | Homepage opens |
+| 2 | Computers category opens |
+| 3 | Notebooks category opens |
+| 4 | Sort control is visible |
+| 5 | Low-to-high sort is selected |
+| 6 | Displayed prices are ascending |
+
+Note: these expected outcomes are documented acceptance criteria, not newly claimed execution evidence. Existing execution dates remain unverified.

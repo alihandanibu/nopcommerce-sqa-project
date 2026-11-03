@@ -68,3 +68,24 @@ The suite covers selected storefront functions rather than the entire nopCommerc
 The current UI automation uses serial execution because intermittent failures were observed during parallel execution.
 
 Passing results apply to the tested application version, data, and local environment.
+
+
+## 2a. Individual Selection Rationale
+
+| Test case | Why selected |
+|---|---|
+| TC-MAN-01 | Reaches the landing page used by every customer journey. |
+| TC-MAN-02 | Product discovery is a frequent, business-critical flow. |
+| TC-MAN-03 | Cart creation enables checkout and order conversion. |
+| TC-MAN-04 | Customers must be able to undo purchases before checkout. |
+| TC-MAN-05 | Minimum purchase restrictions protect catalog/business rules. |
+| TC-MAN-06 | Unmatched search terms must produce honest no-results feedback. |
+| TC-MAN-07 | Blank searches should not submit meaningless requests. |
+| TC-MAN-08 | Zero quantity is a boundary case that must be rejected. |
+| TC-MAN-09 | Product details and availability influence purchase decisions. |
+| TC-MAN-10 | Multiple-unit cart entry checks valid quantity handling. |
+| TC-MAN-11 | Cart quantity updates affect order total and correctness. |
+| TC-MAN-12 | Category navigation supports browsing and discovery. |
+| TC-MAN-13 | Price sorting affects product comparison and choice. |
+| TC-MAN-14 | Registration is a critical persistent account-state transition. |
+| TC-MAN-15 | Login enables returning users to access their accounts. |

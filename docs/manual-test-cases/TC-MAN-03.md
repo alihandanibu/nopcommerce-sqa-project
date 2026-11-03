@@ -25,3 +25,16 @@ Shopping cart displays (2).
 
 **Execution Date:** Not recorded
 **Bug ID:** N/A (no defect recorded)
+
+## Step-level Expected Results
+
+| Step | Expected observable result |
+|---|---|
+| 1 | Homepage is shown |
+| 2 | Search results contain MacBook |
+| 3 | Apple MacBook Pro page opens |
+| 4 | Quantity field contains 2 |
+| 5 | Add to cart succeeds |
+| 6 | Cart count becomes (2) |
+
+Note: these expected outcomes are documented acceptance criteria, not newly claimed execution evidence. Existing execution dates remain unverified.

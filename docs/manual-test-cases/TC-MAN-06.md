@@ -23,3 +23,14 @@ No products are displayed in the search results.
 
 **Execution Date:** Not recorded
 **Bug ID:** N/A (no defect recorded)
+
+## Step-level Expected Results
+
+| Step | Expected observable result |
+|---|---|
+| 1 | Homepage opens |
+| 2 | Search field contains unmatched string |
+| 3 | Search is processed |
+| 4 | No products found message appears |
+
+Note: these expected outcomes are documented acceptance criteria, not newly claimed execution evidence. Existing execution dates remain unverified.

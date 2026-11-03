@@ -31,3 +31,18 @@ Registration confirmation was displayed without validation errors.
 
 **Execution Date:** Not recorded
 **Bug ID:** N/A (no defect recorded)
+
+## Step-level Expected Results
+
+| Step | Expected observable result |
+|---|---|
+| 1 | Homepage opens |
+| 2 | Registration form opens |
+| 3 | Valid names are entered |
+| 4 | Unique valid email is entered |
+| 5 | Valid password is entered |
+| 6 | Confirmation matches password |
+| 7 | Form is submitted |
+| 8 | Registration success is displayed without errors |
+
+Note: these expected outcomes are documented acceptance criteria, not newly claimed execution evidence. Existing execution dates remain unverified.

@@ -26,3 +26,16 @@ No validation errors are displayed.
 
 **Execution Date:** Not recorded
 **Bug ID:** N/A (no defect recorded)
+
+## Step-level Expected Results
+
+| Step | Expected observable result |
+|---|---|
+| 1 | Cart page opens |
+| 2 | MacBook line is present |
+| 3 | Quantity input is set to 4 |
+| 4 | Update action applies if required |
+| 5 | Cart quantity reads 4 |
+| 6 | Displayed total reflects new quantity |
+
+Note: these expected outcomes are documented acceptance criteria, not newly claimed execution evidence. Existing execution dates remain unverified.

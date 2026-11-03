@@ -21,3 +21,14 @@ Apple MacBook Pro is displayed in the search results.
 
 **Execution Date:** Not recorded
 **Bug ID:** N/A (no defect recorded)
+
+## Step-level Expected Results
+
+| Step | Expected observable result |
+|---|---|
+| 1 | Homepage is shown |
+| 2 | Search input contains MacBook |
+| 3 | Search results page opens |
+| 4 | Apple MacBook Pro is listed |
+
+Note: these expected outcomes are documented acceptance criteria, not newly claimed execution evidence. Existing execution dates remain unverified.

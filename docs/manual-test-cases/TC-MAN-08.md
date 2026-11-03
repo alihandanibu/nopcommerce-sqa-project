@@ -25,3 +25,15 @@ The shopping cart remains empty (0).
 
 **Execution Date:** Not recorded
 **Bug ID:** N/A (no defect recorded)
+
+## Step-level Expected Results
+
+| Step | Expected observable result |
+|---|---|
+| 1 | MacBook page opens |
+| 2 | Quantity field contains 0 |
+| 3 | Add action is rejected |
+| 4 | Validation appears |
+| 5 | Cart count stays (0) |
+
+Note: these expected outcomes are documented acceptance criteria, not newly claimed execution evidence. Existing execution dates remain unverified.

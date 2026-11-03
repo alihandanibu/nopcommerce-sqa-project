@@ -25,3 +25,16 @@ Add to cart button and quantity field are visible.
 
 **Execution Date:** Not recorded
 **Bug ID:** N/A (no defect recorded)
+
+## Step-level Expected Results
+
+| Step | Expected observable result |
+|---|---|
+| 1 | Homepage opens |
+| 2 | MacBook search returns result |
+| 3 | Details page opens |
+| 4 | Product name equals Apple MacBook Pro |
+| 5 | Add to cart is available |
+| 6 | Quantity input is visible |
+
+Note: these expected outcomes are documented acceptance criteria, not newly claimed execution evidence. Existing execution dates remain unverified.

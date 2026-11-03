@@ -21,3 +21,14 @@ Homepage loads successfully without errors.
 
 **Execution Date:** Not recorded
 **Bug ID:** N/A (no defect recorded)
+
+## Step-level Expected Results
+
+| Step | Expected observable result |
+|---|---|
+| 1 | Browser starts |
+| 2 | Application URL loads |
+| 3 | Homepage finishes loading |
+| 4 | Store elements are visible and no error is shown |
+
+Note: these expected outcomes are documented acceptance criteria, not newly claimed execution evidence. Existing execution dates remain unverified.

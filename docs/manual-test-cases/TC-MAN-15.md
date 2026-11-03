@@ -28,3 +28,17 @@ No authentication errors appear.
 
 **Execution Date:** Not recorded
 **Bug ID:** N/A (no defect recorded)
+
+## Step-level Expected Results
+
+| Step | Expected observable result |
+|---|---|
+| 1 | Homepage opens |
+| 2 | Login form opens |
+| 3 | Registered email is entered |
+| 4 | Correct password is entered |
+| 5 | Login is submitted |
+| 6 | User is authenticated |
+| 7 | My account and Log out are visible |
+
+Note: these expected outcomes are documented acceptance criteria, not newly claimed execution evidence. Existing execution dates remain unverified.
