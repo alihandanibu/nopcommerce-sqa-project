@@ -1,18 +1,18 @@
-\# IT 3006 — Software Quality Assurance Final Assignment
+# IT 3006 — Software Quality Assurance Final Assignment
 
 
 
-\*\*Student:\*\* Ali Handan  
+**Student:** Ali Handan  
 
-\*\*University:\*\* International Burch University  
+**University:** International Burch University  
 
-\*\*Course:\*\* IT 3006 — Software Quality Assurance  
+**Course:** IT 3006 — Software Quality Assurance  
 
-\*\*System Under Test:\*\* nopCommerce 4.90.8
+**System Under Test:** nopCommerce 4.90.8
 
 
 
-\## Project Overview
+## Project Overview
 
 
 
@@ -24,11 +24,11 @@ The main application under test is nopCommerce, running locally using Docker and
 
 
 
-\*\*Application URL:\*\* http://localhost:8081/
+**Application URL:** http://localhost:8081/
 
 
 
-\## 1. Test Strategy and Regression Suite
+## 1. Test Strategy and Regression Suite
 
 
 
@@ -36,7 +36,7 @@ The test strategy focuses on important e-commerce functionality, including produ
 
 
 
-\*\*Documentation:\*\*
+**Documentation:**
 
 \- `docs/test-strategy.md`
 
@@ -48,11 +48,11 @@ The regression suite contains 15 manual test cases.
 
 
 
-\## 2. Manual Testing
+## 2. Manual Testing
 
 
 
-\*\*Test documentation:\*\*
+**Test documentation:**
 
 \- `docs/manual-test-cases/` — 15 regression test cases
 
@@ -92,11 +92,11 @@ Browser output was reviewed, but screenshots were not saved.
 
 
 
-\## 3. UI Automation — Playwright
+## 3. UI Automation — Playwright
 
 
 
-\*\*Technologies:\*\* TypeScript, Playwright
+**Technologies:** TypeScript, Playwright
 
 
 
@@ -112,11 +112,11 @@ Tests run in Chromium and Firefox.
 
 
 
-\*\*Previous confirmed result:\*\* 20/20 browser-specific executions passed using one worker.
+**Previous confirmed result:** 20/20 browser-specific executions passed using one worker.
 
 
 
-\### Run UI Tests
+### Run UI Tests
 
 
 
@@ -144,11 +144,11 @@ Open the HTML report:
 
 
 
-\## 4. API Testing
+## 4. API Testing
 
 
 
-\*\*Technology:\*\* Playwright API testing
+**Technology:** Playwright API testing
 
 
 
@@ -160,7 +160,7 @@ The API suite uses a dedicated GitHub test repository and authenticated requests
 
 
 
-\*\*Previous confirmed result:\*\* 10/10 tests passed.
+**Previous confirmed result:** 10/10 tests passed.
 
 
 
@@ -168,7 +168,7 @@ A valid `GITHUB\_TOKEN` environment variable is required.
 
 
 
-\### Run API Tests
+### Run API Tests
 
 
 
@@ -180,11 +180,11 @@ The project also includes a separate local API testing setup in `api-tests/`.
 
 
 
-\## 5. Unit Testing
+## 5. Unit Testing
 
 
 
-\*\*Technologies:\*\* PHP 8, PHPUnit 9.6, Xdebug 3
+**Technologies:** PHP 8, PHPUnit 9.6, Xdebug 3
 
 
 
@@ -196,7 +196,7 @@ This unit test suite does not directly test nopCommerce source code.
 
 
 
-\### Confirmed Results
+### Confirmed Results
 
 
 
@@ -214,7 +214,7 @@ This unit test suite does not directly test nopCommerce source code.
 
 
 
-\### Run Unit Tests
+### Run Unit Tests
 
 
 
@@ -246,7 +246,7 @@ Coverage measurement requires Xdebug.
 
 
 
-\## 6. Project Structure
+## 6. Project Structure
 
 
 
@@ -272,7 +272,7 @@ Coverage measurement requires Xdebug.
 
 
 
-\## 7. Environment and Limitations
+## 7. Environment and Limitations
 
 
 
@@ -296,7 +296,7 @@ Coverage measurement requires Xdebug.
 
 
 
-\## Conclusion
+## Conclusion
 
 
 
