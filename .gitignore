@@ -1,0 +1,17 @@
+﻿node_modules/
+.env
+.env.*
+!.env.example
+
+playwright-report/
+github-api-report/
+test-results/
+blob-report/
+
+.DS_Store
+unit-tests/vendor/
+unit-tests/coverage/
+api-report/
+coverage/
+*.log
+*.phpunit.result.cache

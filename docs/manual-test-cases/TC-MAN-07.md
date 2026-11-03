@@ -1,0 +1,27 @@
+# TC-MAN-07
+**Title:** Search with empty input
+**Type:** Negative / Regression
+**Priority:** Medium
+
+## Precondition
+nopCommerce is running at http://localhost:8081/
+
+## Test Steps
+1. Open the homepage.
+2. Leave the search field empty.
+3. Click the Search button.
+4. Observe the validation message.
+5. Check whether the homepage remains open.
+
+## Expected Result
+The application displays a warning:
+"Please enter some search keyword"
+The search is not performed.
+The user remains on the homepage.
+
+**Actual Result:** The application displayed the expected warning for empty search input. After closing the warning, the user remained on the homepage.
+**Status:** PASSED
+
+
+**Execution Date:** Not recorded
+**Bug ID:** N/A (no defect recorded)
