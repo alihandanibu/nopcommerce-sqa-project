@@ -275,7 +275,7 @@ are maintained in the original web-programming repository.
 
 - GitHub REST API testing is separate from nopCommerce.
 
-- PHP unit testing covers an adapted service from a different project rather than nopCommerce business logic.
+- Historical local tests cover an adapted service; graded Part 4b tests the original UserService in the web-programming repository.
 
 - Reported results apply to the tested environments and execution dates.
 
@@ -355,10 +355,12 @@ If the examiner is not logged into the same GitHub account, they must **adapt th
 
 ### Submission checks
 
-- [ ] Instructor and assistant have confirmed read access to repository.
+- [x] Repository is public and readable via link; collaborator invitations are not verified.
 - [ ] Date and evidence for manual test executions are verified and documented.
 - [ ] Exploration log is completed; only genuine defects are filed in `/bugs/`.
 - [x] Original `web-programming` repository has its own passing unit suite, coverage output and link.
-- [ ] New `e2e/` tests pass after this restructuring in both browsers.
+- [x] Restructured `e2e/` tests passed in both browsers (20/20).
 - [ ] Another person can reproduce the local SUT environment and both API credentials/test repository setup.
-- [ ] The repository URL is submitted via LMS and the submission receipt is visible.Docker setup documentation: [SUT Setup](docs/sut-setup.md)
+- [ ] The repository URL is submitted via LMS and the submission receipt is visible.
+
+Docker setup documentation: [SUT Setup](docs/sut-setup.md)
