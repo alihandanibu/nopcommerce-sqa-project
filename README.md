@@ -361,4 +361,4 @@ If the examiner is not logged into the same GitHub account, they must **adapt th
 - [x] Original `web-programming` repository has its own passing unit suite, coverage output and link.
 - [ ] New `e2e/` tests pass after this restructuring in both browsers.
 - [ ] Another person can reproduce the local SUT environment and both API credentials/test repository setup.
-- [ ] The repository URL is submitted via LMS and the submission receipt is visible.
+- [ ] The repository URL is submitted via LMS and the submission receipt is visible.Docker setup documentation: [SUT Setup](docs/sut-setup.md)
