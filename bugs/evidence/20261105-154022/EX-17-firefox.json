@@ -1,0 +1,11 @@
+{
+  "id": "EX-17",
+  "browser": "firefox",
+  "timestamp": "2026-11-05T14:41:29.954Z",
+  "input": "notebooks sort Price: Low to High",
+  "expected": "Visible product prices ascending",
+  "observed": "URL=http://localhost:8081/notebooks?viewmode=grid&orderby=10&pagesize=6; messages=",
+  "verdict": "REVIEW",
+  "screenshot": "bugs/evidence/20261105-154022/EX-17-firefox.png",
+  "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m1800\u001b[39m\nReceived:    \u001b[31m1500\u001b[39m"
+}

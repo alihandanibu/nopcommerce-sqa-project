@@ -15,3 +15,5 @@ api-report/
 coverage/
 *.log
 *.phpunit.result.cache
+
+exploration2-report/

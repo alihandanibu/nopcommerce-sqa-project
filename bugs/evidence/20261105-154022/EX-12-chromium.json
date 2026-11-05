@@ -1,0 +1,10 @@
+{
+  "id": "EX-12",
+  "browser": "chromium",
+  "timestamp": "2026-11-05T14:40:35.564Z",
+  "input": "email=sqa-mismatch@example.invalid, password=Password123!, confirm=Different123!",
+  "expected": "Password confirmation mismatch is rejected",
+  "observed": "mismatch validation visible; URL=http://localhost:8081/register",
+  "verdict": "PASS",
+  "screenshot": "bugs/evidence/20261105-154022/EX-12-chromium.png"
+}

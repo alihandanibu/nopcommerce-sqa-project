@@ -1,0 +1,10 @@
+{
+  "id": "EX-19",
+  "browser": "chromium",
+  "timestamp": "2026-11-05T15:29:58.838Z",
+  "input": "new session; add 3 MacBooks, increase cart quantity by 1",
+  "expected": "Cart quantity is 4 and displayed order total increases",
+  "observed": "cart=(4); initial total=$5,400.00; updated total=$7,200.00",
+  "verdict": "PASS",
+  "screenshot": "bugs/evidence/20261105-162926/EX-19-chromium.png"
+}

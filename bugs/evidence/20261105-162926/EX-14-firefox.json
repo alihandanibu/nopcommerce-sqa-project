@@ -1,0 +1,10 @@
+{
+  "id": "EX-14",
+  "browser": "firefox",
+  "timestamp": "2026-11-05T15:30:23.334Z",
+  "input": "email=sqa-nonexistent@example.invalid, incorrect password",
+  "expected": "Login is rejected; customer session not created",
+  "observed": "login rejected; message=Login was unsuccessful. Please correct the errors and try again.\nNo customer account found",
+  "verdict": "PASS",
+  "screenshot": "bugs/evidence/20261105-162926/EX-14-firefox.png"
+}

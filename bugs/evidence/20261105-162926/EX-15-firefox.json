@@ -1,0 +1,10 @@
+{
+  "id": "EX-15",
+  "browser": "firefox",
+  "timestamp": "2026-11-05T15:30:25.455Z",
+  "input": "login email and password empty",
+  "expected": "Required-field errors are displayed; user remains logged out",
+  "observed": "blank-login errors=Please enter your email",
+  "verdict": "PASS",
+  "screenshot": "bugs/evidence/20261105-162926/EX-15-firefox.png"
+}

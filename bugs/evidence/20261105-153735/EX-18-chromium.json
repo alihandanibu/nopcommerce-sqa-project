@@ -1,0 +1,11 @@
+{
+  "id": "EX-18",
+  "browser": "chromium",
+  "timestamp": "2026-11-05T14:38:26.621Z",
+  "input": "notebooks sort Price: High to Low",
+  "expected": "Visible product prices descending",
+  "observed": "URL=http://localhost:8081/notebooks?viewmode=grid&orderby=11&pagesize=6; messages=",
+  "verdict": "REVIEW",
+  "screenshot": "bugs/evidence/20261105-153735/EX-18-chromium.png",
+  "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: <= \u001b[32m1350\u001b[39m\nReceived:    \u001b[31m1360\u001b[39m"
+}

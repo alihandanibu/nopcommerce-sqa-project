@@ -1,0 +1,10 @@
+{
+  "id": "EX-20",
+  "browser": "chromium",
+  "timestamp": "2026-11-05T15:30:07.506Z",
+  "input": "query=@#$%^&*",
+  "expected": "Observe how storefront handles unusual input; no defect pre-assigned",
+  "observed": "dialog=(none); URL=http://localhost:8081/search?q=%40%23%24%25%5E%26*; page excerpts=\n    \n        Search\n    \n    \n        \n            \n                \n                    \n                        \n                            \n                                Search keyword:\n                                \n                            \n                            \n                            \n                                \n                                Advanced search\n      ",
+  "verdict": "OBSERVED",
+  "screenshot": "bugs/evidence/20261105-162926/EX-20-chromium.png"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "EX-13",
+  "browser": "chromium",
+  "timestamp": "2026-11-05T15:29:48.702Z",
+  "input": "register form submitted with required fields empty",
+  "expected": "Required-field validation is displayed; account not created",
+  "observed": "validations=First name is required. | Last name is required. | Email is required. | Password is required.; URL=http://localhost:8081/register",
+  "verdict": "PASS",
+  "screenshot": "bugs/evidence/20261105-162926/EX-13-chromium.png"
+}

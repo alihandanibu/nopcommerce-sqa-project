@@ -1,0 +1,10 @@
+{
+  "id": "EX-17",
+  "browser": "firefox",
+  "timestamp": "2026-11-05T15:30:29.965Z",
+  "input": "notebooks sort Price: Low to High",
+  "expected": "Visible product prices ascending",
+  "observed": "option=Price: Low to High; prices=1350, 1360, 1460, 1500, 1590, 1800; URL=http://localhost:8081/notebooks?viewmode=grid&orderby=10&pagesize=6",
+  "verdict": "PASS",
+  "screenshot": "bugs/evidence/20261105-162926/EX-17-firefox.png"
+}

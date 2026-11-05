@@ -1,0 +1,59 @@
+{
+  "browser": "firefox",
+  "direction": "asc",
+  "selectedOption": {
+    "value": "10",
+    "text": "Price: Low to High"
+  },
+  "beforeURL": "http://localhost:8081/notebooks",
+  "afterURL": "http://localhost:8081/notebooks?viewmode=grid&orderby=10&pagesize=6",
+  "products": [
+    {
+      "index": 1,
+      "product": "HP Spectre XT Pro UltraBook",
+      "priceText": "$1,350.00",
+      "actualPriceElements": 1
+    },
+    {
+      "index": 2,
+      "product": "Lenovo Thinkpad Carbon Laptop",
+      "priceText": "$1,360.00",
+      "actualPriceElements": 1
+    },
+    {
+      "index": 3,
+      "product": "HP Envy 15.6-Inch Sleekbook",
+      "priceText": "$1,460.00",
+      "actualPriceElements": 1
+    },
+    {
+      "index": 4,
+      "product": "Asus Laptop",
+      "priceText": "$1,500.00",
+      "actualPriceElements": 1
+    },
+    {
+      "index": 5,
+      "product": "Samsung Premium Ultrabook",
+      "priceText": "$1,590.00",
+      "actualPriceElements": 1
+    },
+    {
+      "index": 6,
+      "product": "Apple MacBook Pro",
+      "priceText": "$1,800.00",
+      "actualPriceElements": 1
+    }
+  ],
+  "parsedPrices": [
+    1350,
+    1360,
+    1460,
+    1500,
+    1590,
+    1800
+  ],
+  "properlyOrdered": true,
+  "valid": true,
+  "inspectedAt": "2026-11-05T15:08:09.337Z"
+}

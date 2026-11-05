@@ -1,0 +1,10 @@
+{
+  "id": "EX-16",
+  "browser": "chromium",
+  "timestamp": "2026-11-05T15:29:52.782Z",
+  "input": "/computers then /notebooks",
+  "expected": "Both categories load, notebook product items visible",
+  "observed": "Notebooks page loaded; 6 product cards; URL=http://localhost:8081/notebooks",
+  "verdict": "PASS",
+  "screenshot": "bugs/evidence/20261105-162926/EX-16-chromium.png"
+}
